@@ -8,6 +8,11 @@ import BooksSearch from '../containers/BooksSearch/BooksSearch';
 import SignupPage from '../containers/Auth/Signup';
 import LoginPage from '../containers/Auth/Login';
 
+import axios from '../axios-library';
+import StudentProfile from '../containers/StudentProfile/StudentProfile';
+import CreateAdmin from '../containers/CreateAdmin/CreateAdmin';
+import Notice from '../containers/Home/Notice';
+import CreateStudent from '../containers/CreateAdmin/CreateStudent/CreateStudent';
 
 class App extends Component {
   state = {
