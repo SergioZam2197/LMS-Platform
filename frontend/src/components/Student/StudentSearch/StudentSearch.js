@@ -1,4 +1,7 @@
+import React from 'react';
 
+import classes from './StudentSearch.css';
+import Button from '../../UI/Button/Button';
 
 const studentSearch = (props) => {
     let inputClass = [classes.InputElement];
