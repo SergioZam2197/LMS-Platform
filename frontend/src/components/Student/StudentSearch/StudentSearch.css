@@ -1,0 +1,107 @@
+.StudentSearch {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 4%;
+    height: 120px;
+}
+
+.Label {
+    font-weight: lighter;
+    float: left;
+    width: 30%;
+    margin: 1.2% 0%;
+    padding-left: 200px;
+}
+.SelectLabel {
+    font-weight: lighter;
+    float: left;
+    width: 22%;
+    margin: 1.2% 0%;
+    padding-left: 120px;
+}
+
+.Label label {
+    font: 24px;
+}
+
+.Button {
+    float: left;
+    width: 20%;
+    padding-left: 2%;
+}
+.SelectButton {
+    float: left;
+    width: 20%;
+    padding-left: 2%;
+}
+.Input {
+    width: 40%;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.SelectInput {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.Select {
+    width: 20%;
+    float: left;    
+    padding: 10px;
+    margin-right: 10px;
+}
+@media (max-width: 600px) {
+    .StudentSearch {
+        padding: 10px;
+        margin-top: 12%;
+        margin-bottom: 5%;
+    }
+    .Label {
+        width: 50%;
+        margin-top: 6%;
+        padding-left: 10px;
+    }
+    .Input {
+        width: 47%;
+        float: left;
+        padding: 10px;
+        margin-top: 2%;
+    }    
+    .Button {
+        float: none;
+        width: 20%;
+        margin: auto;
+    }
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.InputElement:focus{
+    outline: none;
+    background-color: white;
+    border: 1.2 px solid blue;
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: salmon;
+}
+
+.ValidationError {
+    color: red;
+    margin: 5px 0;
+} 
+
