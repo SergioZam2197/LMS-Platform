@@ -1,6 +1,5 @@
 import React from 'react';
 
-import classes from './studentBooks.css';
 
 const studentBooks = (props) => {
     let tableContent;
